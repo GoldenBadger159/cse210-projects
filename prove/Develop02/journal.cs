@@ -18,8 +18,8 @@ public class Journal
 
     public void ReadJournal()
     {
-        string filename = "journal.txt";
-        Console.WriteLine(System.IO.File.ReadAllText(filename));
+        string fileName = "journal.txt";
+        Console.WriteLine(System.IO.File.ReadAllText(fileName));
     }
 
     public void CalcAveQual()
