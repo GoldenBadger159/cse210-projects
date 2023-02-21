@@ -16,6 +16,4 @@ public class Text
         _text = _texts[index];
         return _text;
     }
-
-
 }

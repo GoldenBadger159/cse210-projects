@@ -7,7 +7,6 @@ public class Index
     public int _index = Randomize();
     static int Randomize()
         {
-
             var random = new Random();
 
             return random.Next(reference.GetListLength());

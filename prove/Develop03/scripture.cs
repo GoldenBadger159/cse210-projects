@@ -43,12 +43,12 @@ public class Scripture
             bool isAlpha = false;
             int index = 0;
             string word = "";
-            int tries = 100;
+            int tries = 1000;
 
             do {
                 index = GetRandomIndex();
                 word = _words[index];
-                isAlpha = word.All(c => Char.IsLetter(c) || c == ',' || c == ':' || c == ' ' || c == ';');
+                isAlpha = word.All(c => Char.IsLetter(c) || c == ',' || c == ':' || c == ' ' || c == ';' || c == '.');
                 tries -= 1;
             } while (isAlpha != true && tries > 0);
 
@@ -74,5 +74,4 @@ public class Scripture
     {
         Console.WriteLine($"{_reference}: {_text}");
     }
-
 }

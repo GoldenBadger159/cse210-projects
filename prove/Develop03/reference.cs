@@ -17,6 +17,4 @@ public class Reference
     {
         return _references.Count();
     }
-
-
 }
