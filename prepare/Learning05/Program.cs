@@ -6,13 +6,13 @@ class Program
     {
        List<Shape> shapes = new List<Shape>();
 
-        Square s1 = new Square("Red", 3);
+        Square s1 = new Square("blue", 7);
         shapes.Add(s1);
 
-        Rectangle s2 = new Rectangle("Blue", 4, 5);
+        Rectangle s2 = new Rectangle("Turqouise", 1, 2);
         shapes.Add(s2);
 
-        Circle s3 = new Circle("Green", 6);
+        Circle s3 = new Circle("Green", 3);
         shapes.Add(s3);
 
         foreach (Shape s in shapes)
