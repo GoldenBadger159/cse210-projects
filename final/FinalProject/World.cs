@@ -14,8 +14,8 @@ public class World
         "Forest","Abandoned Cottage", "Appartment Complex", "Old Super Store", "Office Building",
         "Abandoned School", "Police Station", "Sports Stadium"
     };
-    private Dictionary<string, int> _enemies = new Dictionary<string, int>(){
-        {"Ghoul", 70}, {"Mutant Bear", 150}, {"Alien", 100}, {"Alien Hound", 85}
+    private List<int> _enemies = new List<int>(){
+        10, 15, 20, 30
     };
     public Dictionary<string, int> GetArmory()
     {
@@ -41,7 +41,7 @@ public class World
     {
         return _gear;
     }
-    public Dictionary<string, int> GetEnemies()
+    public List<int> GetEnemies()
     {
         return _enemies;
     }

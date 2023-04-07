@@ -26,7 +26,13 @@ public class Player : World
         _baseDamage += 1;
         _level += 1;
     }
-    private List<string> _equipment;
+    public int GetPlayerHP()
+    {
+        return _health;
+    }
+    private List<string> _equipment = new List<string>(){
+        "bandages"
+    };
     public void EquipGear(string item)
     {
         if (_equipment.Count() <= 3)
