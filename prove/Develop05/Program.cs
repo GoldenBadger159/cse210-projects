@@ -2,8 +2,9 @@ using System;
 
 class Program
 {
+    List<string> _goals = new List<string>();
     static void Main(string[] args)
     {
-        Console.WriteLine("Hello Develop05 World!");
+        
     }
 }
